@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T16:00:48 IST" name="Suite" finished-at="2026-04-24T16:01:11 IST" duration-ms="22167">
+    <groups>
+      <group name="datadriven">
+        <method signature="DataDrivenUserTestsWithPropertiesFile.testUserCreateDatadriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" name="testUserCreateDatadriven" class="api.test.DataDrivenUserTestsWithPropertiesFile"/>
+      </group> <!-- datadriven -->
+      <group name="functional">
+        <method signature="UserTestsWithUrlsFromPropertiesFile.testCreateUser()[pri:1, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" name="testCreateUser" class="api.test.UserTestsWithUrlsFromPropertiesFile"/>
+        <method signature="UserTestsWithUrlsFromPropertiesFile.testGetUserByName()[pri:2, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" name="testGetUserByName" class="api.test.UserTestsWithUrlsFromPropertiesFile"/>
+        <method signature="UserTestsWithUrlsFromPropertiesFile.testUpdateUser()[pri:3, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" name="testUpdateUser" class="api.test.UserTestsWithUrlsFromPropertiesFile"/>
+        <method signature="UserTestsWithUrlsFromPropertiesFile.testDeleteUserByName()[pri:4, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" name="testDeleteUserByName" class="api.test.UserTestsWithUrlsFromPropertiesFile"/>
+      </group> <!-- functional -->
+    </groups>
+    <test started-at="2026-04-24T16:00:48 IST" name="Test" finished-at="2026-04-24T16:01:11 IST" duration-ms="22167">
+      <class name="api.test.UserTestsWithUrlsFromPropertiesFile">
+        <test-method is-config="true" signature="initializeSuite()[pri:0, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:48 IST" name="initializeSuite" finished-at="2026-04-24T16:00:48 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSuite -->
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:49 IST" name="setupData" finished-at="2026-04-24T16:00:49 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:49 IST" name="testCreateUser" finished-at="2026-04-24T16:00:52 IST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:52 IST" name="testGetUserByName" finished-at="2026-04-24T16:00:53 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:53 IST" name="testUpdateUser" finished-at="2026-04-24T16:00:56 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:00:56 IST" name="testDeleteUserByName" finished-at="2026-04-24T16:00:58 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method is-config="true" signature="endSuite()[pri:0, instance:api.test.UserTestsWithUrlsFromPropertiesFile@57eda880]" started-at="2026-04-24T16:01:11 IST" name="endSuite" finished-at="2026-04-24T16:01:11 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- api.test.UserTestsWithUrlsFromPropertiesFile -->
+      <class name="api.test.DataDrivenUserTestsWithPropertiesFile">
+        <test-method signature="testUserCreateDatadriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:00:59 IST" name="testUserCreateDatadriven" data-provider="Data" finished-at="2026-04-24T16:01:00 IST" duration-ms="1317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shrithi Bhav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shruthi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bhav]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shrithi.bhav@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2345678923]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCreateDatadriven -->
+        <test-method signature="testUserCreateDatadriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:00 IST" name="testUserCreateDatadriven" data-provider="Data" finished-at="2026-04-24T16:01:01 IST" duration-ms="1311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yamini Gila]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yamini]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gila]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yamini.gila@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2356789765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCreateDatadriven -->
+        <test-method signature="testUserCreateDatadriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:01 IST" name="testUserCreateDatadriven" data-provider="Data" finished-at="2026-04-24T16:01:03 IST" duration-ms="1343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gowtami Renuka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gowtami]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Renuka]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gowtami.renuka@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2312345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCreateDatadriven -->
+        <test-method signature="testGetUserDataDriven(java.lang.String)[pri:2, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:03 IST" name="testGetUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:04 IST" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shrithi Bhav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDataDriven -->
+        <test-method signature="testGetUserDataDriven(java.lang.String)[pri:2, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:04 IST" name="testGetUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:05 IST" duration-ms="1320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yamini Gila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDataDriven -->
+        <test-method signature="testGetUserDataDriven(java.lang.String)[pri:2, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:05 IST" name="testGetUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:07 IST" duration-ms="1316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gowtami Renuka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDataDriven -->
+        <test-method signature="testDeleteUserDataDriven(java.lang.String)[pri:3, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:07 IST" name="testDeleteUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:08 IST" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shrithi Bhav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserDataDriven -->
+        <test-method signature="testDeleteUserDataDriven(java.lang.String)[pri:3, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:08 IST" name="testDeleteUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:09 IST" duration-ms="1232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yamini Gila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserDataDriven -->
+        <test-method signature="testDeleteUserDataDriven(java.lang.String)[pri:3, instance:api.test.DataDrivenUserTestsWithPropertiesFile@2262b621]" started-at="2026-04-24T16:01:09 IST" name="testDeleteUserDataDriven" data-provider="Usernames" finished-at="2026-04-24T16:01:11 IST" duration-ms="1314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gowtami Renuka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserDataDriven -->
+      </class> <!-- api.test.DataDrivenUserTestsWithPropertiesFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
